@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: arial;
+    color: white;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    opacity: 1;
+    padding: 3rem;
+    transition: 1s;
+}
+
+.cookies-btn{
+    display: flex;
+}
+
+ .btn{
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .btn.btn-success{
+    background-color: #1E2337;
+    margin: 5px;
+ }
+
+ 
+
+ .btn.btn-deny{
+    background-color: rgb(148, 144, 144);
+    margin: 5px;
+ }
+
+ .btn.btn-deny:hover {
+    background-color: #bcbdc2;
+ }
+
+ .btn.btn-success:hover{
+    background-color: #384370;
+ }
